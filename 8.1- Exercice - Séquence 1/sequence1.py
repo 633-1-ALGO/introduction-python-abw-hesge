@@ -4,3 +4,11 @@
 
 a = 11
 b = 42
+c = 0
+
+c = a
+a = b
+b = c
+print("a =", a)
+print("b =", b)
+
