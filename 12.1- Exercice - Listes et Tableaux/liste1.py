@@ -6,3 +6,8 @@
 # Indication :   L'alignement rectiligne n'est pas une contrainte, tant que la table est visible ligne par ligne c'est ok.
 #               Si vous êtes perfectionnistes faites vous plaisir.
 liste = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+j = 1
+for i in range(0, len(liste)):
+    for j in range(1, len(liste)+1):
+        print(liste[i]*j, end = " ")
+    print()
